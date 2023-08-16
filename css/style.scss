@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  margin: 4em;
+}
+section {
+  height: 100vh;
+}
+section ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: masonry;
+  gap: 2em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 8em;
+  transform: perspective(1000px) rotateX(65deg) rotateY(15deg);
+}
+.mask {
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 300px;
+  border-radius: 0.3em;
+  object-fit: cover;
+}
